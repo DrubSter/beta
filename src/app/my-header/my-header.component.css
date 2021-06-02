@@ -1,0 +1,53 @@
+header {    
+    min-width: 500px;
+    padding: 20px;
+    background-color: #999999;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;    
+}
+table {
+    width: 100%;
+}
+
+#im {
+    width: 80px;    
+}
+
+td {
+    padding: 0;
+}
+
+.td {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 80px;
+}
+
+ul {    
+    padding: 0;
+    margin: 0;
+}
+
+
+li { 
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 15px;    
+    border: 2px solid 	#CC3333;
+    background-color: #CC3333;
+    box-shadow: 4px 4px 0px 2px #FF0033;
+}
+
+a :hover li {
+    background-color: blueviolet;
+}
+
+a{
+    color: white;   
+    text-decoration: none;
+}   

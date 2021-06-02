@@ -1,0 +1,10 @@
+.bod {    
+    min-width: 500px;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #999999;
+    border-radius: 50px; 
+}

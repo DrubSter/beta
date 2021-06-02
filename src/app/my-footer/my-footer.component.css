@@ -1,0 +1,12 @@
+footer {        
+    min-width: 500px;
+    position: relative;
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #999999;
+    border-top-right-radius: 50px; 
+    border-top-left-radius: 50px; 
+}

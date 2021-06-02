@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnChanges } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'bod',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
