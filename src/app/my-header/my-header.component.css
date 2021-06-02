@@ -5,6 +5,10 @@ header {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;    
 }
+a :hover  {
+    
+    box-shadow: 0 0 0 ;    
+}
 table {
     width: 100%;
 }
@@ -41,10 +45,6 @@ li {
     border: 2px solid 	#CC3333;
     background-color: #CC3333;
     box-shadow: 4px 4px 0px 2px #FF0033;
-}
-
-a :hover li {
-    background-color: blueviolet;
 }
 
 a{

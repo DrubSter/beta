@@ -11,5 +11,4 @@ export class MyBodyComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
