@@ -1,41 +1,35 @@
-.bod {    
+ .bod {   
+    width: 50%;   
+    margin: 0 auto;
     min-width: 500px;
     height: 100%;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #999999;
+    padding: 10px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 150px;
+    margin-bottom: 120px;
+    background-color: #7e7e7e;
     border-radius: 50px; 
 }
-input[type="submit"] :hover {
+
+.flex1 {
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+.flex2 {
+    flex-grow: 4;
+    align-self: stretch;
+}
+
+.but:hover{
     box-shadow: 0 0 0;
-}
-input[type="reset"] :hover {
-    box-shadow: 0 0 0;
-}
-table {
-    width: 100%;
-    height: 100%;
+    transform: translate(5px, 5px);
 }
 
-#row1, .row3 {
-    width: 20%;
-}
-
-.container {      
-    width: 100%;
-    height: 100%;    
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 15px;
-}
-
-.container p {
-    font-size: 16pt;
-}
-
-input[type="submit"], input[type="reset"] {
+.but {
+    font-size: 12pt;
     color: white;
     display: inline;
     margin-right: 20px;
@@ -44,7 +38,23 @@ input[type="submit"], input[type="reset"] {
     border: 2px solid 	#CC3333;
     background-color: #CC3333;
     box-shadow: 4px 4px 0px 2px #FF0033;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
+
+.container {    
+
+    padding: 10px;
+    background-color: white;    
+    border-radius: 50px;
+    width: 250px;
+}
+
+.container p {
+    font-size: 16pt;
+}
+
+
 
 input[type="text"], input[type="password"], input[type="email"] {
     padding: 7px;
