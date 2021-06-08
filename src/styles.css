@@ -2,9 +2,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 html {
     background-image: url(assets/images/fon.jpg);
+    background-attachment: fixed;    
 }
 
-body {
-    min-width: 1000px;
+body {    
+    margin: 0;
     font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    min-height: 50vh;   
+}
+
+.but:hover{    
+    box-shadow: 0 0 0 #FF0033;
+    transform: translate(5px, 5px);
+}
+.but {
+    color: white;
+
+    margin-right: 20px;
+    padding: 10px;
+
+    border-radius: 15px;    
+    border: 2px solid 	#CC3333;
+    background-color: #CC3333;
+    box-shadow: 4px 4px 0px 2px #FF0033;
+    
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.container {    
+
+    padding: 10px;
+    background-color: white;    
+    border-radius: 50px;
+    width: 250px;
+}
+
+.container p {
+    font-size: 16pt;
 }

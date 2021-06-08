@@ -1,34 +1,16 @@
-<div class="bod">
+<main>
   <div class="flex1 container ">
-    <h2>Регистрация</h2>
-    <form>
-      <p>Логин</p>
-      <input type="text" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Ваш логин" required>
-      <p>Пароль</p>
-      <input type="password" placeholder="Ваш пароль" required>
-      <p>Почта</p>
-      <input type="email" placeholder="Ваш email" required>
-      <p><input class="but" type="submit">   <input class="but" type="reset"></p>
-    </form>
+   <app-register></app-register>
   </div>
-  <div class="flex2">
+  <div class="flex1">
     <h3>
       Главная информация распологается здесь
     </h3>
   </div>
   <div class="flex1">
-    <div class="container">
-      <img width="200px" height="112px" src="assets/images/angular_6.jpg" alt="Новая версия Angular">
-      <p>Вышла новая верися Angular, теперь он имеет номер "6" и вместе с номером появились новые возможности!</p>
-    </div>
-    <div class="container">
-      <img width="200px" height="112px" src="assets/images/angular_6.jpg" alt="Новая версия Angular">
-      <p>Вышла новая верися Angular, теперь он имеет номер "6" и вместе с номером появились новые возможности!</p>
-    </div>
-    <div class="container">
-      <img width="200px" height="112px" src="assets/images/angular_6.jpg" alt="Новая версия Angular">
-      <p>Вышла новая верися Angular, теперь он имеет номер "6" и вместе с номером появились новые возможности!</p>
-    </div>
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
   </div>
-</div>
+</main>
 

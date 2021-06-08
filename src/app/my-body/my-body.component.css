@@ -1,68 +1,28 @@
- .bod {   
-    width: 50%;   
+ main {   
+    width: 70%;   
     margin: 0 auto;
+    margin-top: 94px;
     min-width: 500px;
     height: 100%;
-    text-align: center;
     padding: 10px;
+
+    text-align: center;
+    
     display: flex;
-    margin-left: 25%;
-    margin-top: 150px;
-    margin-bottom: 120px;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: space-between;
     background-color: #7e7e7e;
-    border-radius: 50px; 
+        
 }
 
 .flex1 {
-    flex-grow: 1;
     align-self: stretch;
 }
 
-.flex2 {
-    flex-grow: 4;
-    align-self: stretch;
-}
-
-.but:hover{
-    box-shadow: 0 0 0;
-    transform: translate(5px, 5px);
-}
-
-.but {
-    font-size: 12pt;
-    color: white;
-    display: inline;
-    margin-right: 20px;
-    padding: 10px;
-    border-radius: 15px;    
-    border: 2px solid 	#CC3333;
-    background-color: #CC3333;
-    box-shadow: 4px 4px 0px 2px #FF0033;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-}
-
-.container {    
-
-    padding: 10px;
-    background-color: white;    
-    border-radius: 50px;
-    width: 250px;
-}
-
-.container p {
-    font-size: 16pt;
-}
 
 
 
-input[type="text"], input[type="password"], input[type="email"] {
-    padding: 7px;
-    color: white;
-    border-radius: 15px;    
-    border: 3px solid 	#802121;
-    background-color: #CC3333;
-}
 ::-webkit-input-placeholder {
     color: rgb(182, 182, 182);
 }
