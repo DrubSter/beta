@@ -13,7 +13,7 @@ body {
 }
 
 .but:hover{    
-    box-shadow: 0 0 0 #FF0033;
+    box-shadow: 0 0 0 #ED760E;
     transform: translate(5px, 5px);
 }
 .but {
@@ -23,9 +23,9 @@ body {
     padding: 10px;
 
     border-radius: 15px;    
-    border: 2px solid 	#CC3333;
-    background-color: #CC3333;
-    box-shadow: 4px 4px 0px 2px #FF0033;
+    border: 2px solid 	#ED760E;
+    background-color: #ED760E;
+    box-shadow: 4px 4px 0px 2px #FFB841;
     
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;

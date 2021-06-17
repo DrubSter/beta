@@ -11,7 +11,10 @@ export class MyHeaderComponent implements OnInit {
 
   ngOnInit() {
   }
-  
+  dialog: string = "none";
   img: string = 'assets/images/angular.png'; 
-
+  openDialog()
+  {
+      this.dialog = "open";
+  }
 }
