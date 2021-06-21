@@ -2,21 +2,18 @@ header {
     position: fixed;
     display: flex;
     flex-direction: row;  
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;    
+    justify-content: space-around;
     top:0px;
     left:0px;
-    width:99vw;
+    width:100vw;
+    height: 5%;
 
     margin: 0;      
     min-width: 710px;
     padding: 5px;
-
-    border: 3px solid white;
-    border-top: none;
-    background-color: #999999;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    background: linear-gradient(to right, #f37331 , #FFB841, rgb(255, 242, 182));
+    
 }
 dialog {
     position: absolute;
@@ -32,7 +29,7 @@ dialog::backdrop {
 input[type="text"], input[type="password"]{
     padding: 7px;
     border-radius: 15px;    
-    border: 3px solid 	#ED760E;
+    border: 3px solid 	#f37331;
     background-color: #FFB841;
 }
 
@@ -42,8 +39,8 @@ input[type="text"], input[type="password"]{
     }
 }
 .img-head1 {
-    width: 60px;
-    height: 60px;
+    width: 192px;
+    height: 42px;
 }
 
 .img-head2 {

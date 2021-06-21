@@ -8,3 +8,6 @@ import { Component, OnChanges } from '@angular/core';
 export class AppComponent {
   title = 'beta';
 }
+
+
+  

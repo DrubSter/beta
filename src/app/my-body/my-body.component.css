@@ -1,9 +1,9 @@
  main {   
-    width: 70%;   
+    width: 80%;
     margin: 0 auto;
-    margin-top: 94px;
+    margin-top: 5vh;
     min-width: 500px;
-    height: 100%;
+    height: 86vh;
     padding: 10px;
 
     text-align: center;
@@ -12,8 +12,7 @@
     flex-direction: row;  
     align-items: center;
     justify-content: space-between;
-    background-color: #7e7e7e;
-        
+    overflow: scroll;
 }
 
 .flex1 {

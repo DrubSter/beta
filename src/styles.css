@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 html {
-    background-image: url(assets/images/fon.jpg);
     background-attachment: fixed;    
 }
 
@@ -13,8 +12,8 @@ body {
 }
 
 .but:hover{    
-    box-shadow: 0 0 0 #ED760E;
-    transform: translate(5px, 5px);
+    box-shadow: 0 0 0 #f37331;
+    transform: scale(0.9);
 }
 .but {
     color: white;
@@ -22,22 +21,24 @@ body {
     margin-right: 20px;
     padding: 10px;
 
-    border-radius: 15px;    
-    border: 2px solid 	#ED760E;
-    background-color: #ED760E;
-    box-shadow: 4px 4px 0px 2px #FFB841;
+    border-radius: 6px;    
+    background: linear-gradient(to top right, #f37331, #fcc372);
     
+    border: none;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 .container {    
 
-    padding: 10px;
-    background-color: white;    
+    padding: 10px;    
     border-radius: 50px;
     width: 250px;
+    border: 2px solid gray;
+    
 }
 
 .container p {
     font-size: 16pt;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
