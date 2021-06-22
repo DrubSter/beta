@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
 import {MatDialog, MatDialogRef} from '@angular/material/dialog';
+import { MyHeaderDialogComponent } from './my-header-dialog/my-header-dialog.component';
 
 
 
@@ -16,25 +17,10 @@ export class MyHeaderComponent {
   img: string = 'assets/images/ladalogo.png'; 
   openDialog(): void
   {
-    const dialogRef = this.dialog.open(MyHeaderDialog, {
+    const dialogRef = this.dialog.open(MyHeaderDialogComponent, {
       width: '250px'      
     });
   }
 }
 
 
-@Component({
-  selector: 'dialog',
-  templateUrl: './my-header-dialog.html',
-  styleUrls: ['./my-header.component.css']
-})
-export class MyHeaderDialog {
-  constructor(
-    public dialogRef: MatDialogRef<MyHeaderDialog>    
-  ){}
-  
-  onNOClick(): void{
-    this.dialogRef.close();
-  }
-
-}

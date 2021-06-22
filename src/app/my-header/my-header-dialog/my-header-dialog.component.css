@@ -1,0 +1,9 @@
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 7px;
+    border-radius: 15px;    
+    border: 2px solid 	#f37331;
+    background-color: #fcc372;    
+}
+p {
+    margin: 14px 0;
+}
