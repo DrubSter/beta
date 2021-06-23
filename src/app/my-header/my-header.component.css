@@ -2,37 +2,24 @@ header {
     position: fixed;
     display: flex;
     flex-direction: row;  
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;    
+    justify-content: space-around;
     top:0px;
     left:0px;
-    width:99vw;
+    width:100%;
+    height: 5%;
 
     margin: 0;      
     min-width: 710px;
     padding: 5px;
+    background: linear-gradient(to right, #f37331 , #FFB841, rgb(255, 242, 182));
+    
+}
 
-    border: 3px solid white;
-    border-top: none;
-    background-color: #999999;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-dialog {
-    position: absolute;
-    top: 100px;
-    padding: 20px;
-    border: 0;
-    border-radius: 0.6rem;
-    box-shadow: 0 0 1em black;
-}
-dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.4);
-}
 input[type="text"], input[type="password"]{
     padding: 7px;
     border-radius: 15px;    
-    border: 3px solid 	#ED760E;
+    border: 3px solid 	#f37331;
     background-color: #FFB841;
 }
 
@@ -42,8 +29,8 @@ input[type="text"], input[type="password"]{
     }
 }
 .img-head1 {
-    width: 60px;
-    height: 60px;
+    width: 192px;
+    height: 42px;
 }
 
 .img-head2 {
@@ -53,7 +40,6 @@ input[type="text"], input[type="password"]{
 .flex {
     display: flex;
     align-items: center;
-    padding: 2px;
 }
 
 

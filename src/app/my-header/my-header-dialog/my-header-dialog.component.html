@@ -1,0 +1,9 @@
+<h2>Вход</h2>
+<form [formGroup]="MyGroup" (ngSubmit)="onSubmit()"> 
+    <p>Почта</p>
+    <input type="email" formControlName="mail" placeholder="Ваш email" >
+    <p>Пароль</p>
+    <input type="password" formControlName="password" placeholder="Ваш пароль">  
+    <p><input type="checkbox"> Перейти на страницу</p>
+    <p><input class="but" type="submit" [disabled]="MyGroup.invalid">   <input class="but" value="Отмена" type="reset" (click)="onNOClick()"></p>
+</form>

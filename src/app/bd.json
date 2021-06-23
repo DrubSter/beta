@@ -1,0 +1,28 @@
+{
+    "User":[
+        {
+            "login":"DrubSter",
+            "mail":"mr.egor.lomakin015@mail.ru",
+            "password":"Rogenikamol401-",
+            "role":1
+        },
+        {
+            "login":"User1",
+            "mail":"q@mail.ru",
+            "password":"qwertyui",
+            "role":0
+        },
+        {
+            "login":"User2",
+            "mail":"a@mail.ru",
+            "password":"asdfghjk",
+            "role":0
+        },
+        {
+            "login":"User3",
+            "mail":"z@mail.ru",
+            "password":"zxcvbnm,",
+            "role":0
+        }
+    ]
+}

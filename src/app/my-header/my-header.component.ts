@@ -1,20 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+import { MyHeaderDialogComponent } from './my-header-dialog/my-header-dialog.component';
+
+
 
 @Component({
   selector: 'my-header',
   templateUrl: './my-header.component.html',
   styleUrls: ['./my-header.component.css']  
 })
-export class MyHeaderComponent implements OnInit {
+export class MyHeaderComponent {
+  constructor(public dialog: MatDialog) {      
+  } 
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-  dialog: string = "none";
-  img: string = 'assets/images/angular.png'; 
-  openDialog()
+  img: string = 'assets/images/ladalogo.png'; 
+  openDialog(): void
   {
-      this.dialog = "open";
+    const dialogRef = this.dialog.open(MyHeaderDialogComponent, {
+      width: '250px'      
+    });
   }
 }
+
+

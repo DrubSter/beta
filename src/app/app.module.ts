@@ -9,6 +9,13 @@ import { MyFooterComponent } from './my-footer/my-footer.component';
 import { MenuComponent } from './my-header/menu/menu.component';
 import { RegisterComponent } from './my-body/register/register.component';
 import { CardComponent } from './my-body/card/card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MyHeaderDialogComponent } from './my-header/my-header-dialog/my-header-dialog.component';
+import { AngularMaterialModule } from './material-module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+
+
+
 
 
 @NgModule({
@@ -19,13 +26,20 @@ import { CardComponent } from './my-body/card/card.component';
       MyFooterComponent,
       MenuComponent,
       RegisterComponent,
-      CardComponent
+      CardComponent,
+      MyHeaderDialogComponent
    ],
+   entryComponents: [MyHeaderComponent],   
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    AngularMaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
