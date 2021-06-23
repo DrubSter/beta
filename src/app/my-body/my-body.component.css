@@ -2,9 +2,9 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 5vh;
-    min-width: 500px;
-    height: 86vh;
+    min-width: 500px;    
     padding: 10px;
+    height: 96%;
 
     text-align: center;
     
@@ -12,16 +12,17 @@
     flex-direction: row;  
     align-items: center;
     justify-content: space-between;
-    overflow: scroll;
+    overflow-y: scroll;
 }
-
+table {
+    width: 100%;
+  }
 .flex1 {
     align-self: stretch;
 }
-
-
-
-
+.center {
+    width: 800px;
+}
 ::-webkit-input-placeholder {
     color: rgb(182, 182, 182);
 }

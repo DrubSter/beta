@@ -2,9 +2,6 @@ footer {
     min-width: 500px;
     text-align: center;
     padding: 10px;
-    height: 48px;
-    border-bottom: none;
+    height: 5%;
     background: linear-gradient(to right, #f37331 , #FFB841, rgb(255, 242, 182));
-    border-top-right-radius: 50px; 
-    border-top-left-radius: 50px; 
 }

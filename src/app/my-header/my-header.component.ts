@@ -1,5 +1,5 @@
 import { Component} from '@angular/core';
-import {MatDialog, MatDialogRef} from '@angular/material/dialog';
+import {MatDialog} from '@angular/material/dialog';
 import { MyHeaderDialogComponent } from './my-header-dialog/my-header-dialog.component';
 
 
@@ -10,9 +10,8 @@ import { MyHeaderDialogComponent } from './my-header-dialog/my-header-dialog.com
   styleUrls: ['./my-header.component.css']  
 })
 export class MyHeaderComponent {
-  
-  constructor(public dialog: MatDialog) {}
-
+  constructor(public dialog: MatDialog) {      
+  } 
 
   img: string = 'assets/images/ladalogo.png'; 
   openDialog(): void

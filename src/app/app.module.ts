@@ -12,6 +12,8 @@ import { CardComponent } from './my-body/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyHeaderDialogComponent } from './my-header/my-header-dialog/my-header-dialog.component';
 import { AngularMaterialModule } from './material-module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+
 
 
 
@@ -32,9 +34,12 @@ import { AngularMaterialModule } from './material-module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

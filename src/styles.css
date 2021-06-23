@@ -1,14 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 html {
-    background-attachment: fixed;    
+    background-attachment: fixed; 
+    height: 90%;   
 }
 
 body {    
     margin: 0;
     font-family: 'Roboto', sans-serif;
     flex-direction: column;
-    min-height: 50vh;   
+    min-height: 50vh;
+    height: 100%;
 }
 
 .but:hover{    
@@ -31,7 +33,7 @@ body {
 .container {    
 
     padding: 10px;    
-    border-radius: 50px;
+    box-shadow: 0 0 10px gray;
     width: 250px;
     border: 2px solid gray;
     margin-top: 10px;
@@ -41,5 +43,4 @@ body {
 .container p {
     font-size: 16pt;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
